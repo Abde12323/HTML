@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Variables</title>
+
+    <style>
+        :root {
+            --color: red;
+        }
+
+        h1 {
+            color: var(--color);
+        }
+
+        a {
+            color: var(--color);
+        }
+
+        .caja {
+            --alto: 50px;
+            height: var(--alto);
+            width: calc(var(--alto) * 2);
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Título</h1>
+
+    <p>
+        Texto con un <a href="#">enlace</a> y otro <a href="#">enlace</a>.
+    </p>
+
+    <div class="caja"></div>
+
+</body>
+</html>
