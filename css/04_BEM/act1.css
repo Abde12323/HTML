@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 60px;
+    height: auto;
+}
+
+.header__nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.comentarios {
+    margin-top: 2rem;
+}
+
+.comentario {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.comentario--destacado {
+    background: #f0f0f0;
+}
