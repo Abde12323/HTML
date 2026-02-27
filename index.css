@@ -1,54 +1,63 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    background-color: #f2f2f2;
 }
 
 header {
-    background: #e0e0e0;
-    padding: 20px;
-    text-align: center;
+    background-color: #d9d9d9;
+    padding: 15px;
 }
 
-.intro {
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
+header h1 {
+    margin: 0;
 }
+
 .menu {
-    background: white;
+    background-color: #e6e6e6;
     padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
 }
 
 .menu a {
     text-decoration: none;
-    color: #333;
-    margin: 0 10px;
-    font-size: 14px;
+    color: black;
+    margin-right: 15px;
 }
 
 .menu a:hover {
     text-decoration: underline;
 }
-.proyectos {
-    max-width: 600px;
-    margin: 20px auto;
+
+section {
     padding: 20px;
 }
 
-.proyecto {
-    background: white;
-    padding: 15px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
+h2 {
+    margin-top: 30px;
 }
+
 .foto {
-    width: 300px;      /* tamaño fijo */
-    height: auto;      /* mantiene proporción */
-    display: block;
+    width: 250px;
+    height: auto;
     margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+input, textarea {
+    width: 250px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
 }
