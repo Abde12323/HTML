@@ -17,3 +17,20 @@ header {
     max-width: 600px;
     margin: auto;
 }
+.menu {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
