@@ -102,3 +102,28 @@ button {
     margin-top: 10px;
     padding: 5px 10px;
 }
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.card-inicio {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card-inicio h2 {
+    margin-bottom: 15px;
+}
+
+.card-inicio p {
+    color: #555;
+    margin-bottom: 10px;
+}
