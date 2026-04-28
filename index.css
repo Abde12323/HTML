@@ -112,9 +112,3 @@ header {
 .bloque:hover {
     transform: translateY(-8px);
 }
-
-@media (max-width: 1000px) {
-    .lado {
-        display: none;
-    }
-}

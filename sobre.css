@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f8fafc;
+    background-color: #f1f5f9;
 }
 
 header {
@@ -11,20 +11,16 @@ header {
     padding: 20px;
 }
 
-header h1 {
-    margin: 0;
-}
-
 .menu {
     background-color: #1e293b;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
 }
 
 .menu a {
     text-decoration: none;
     color: #e2e8f0;
-    margin: 0 15px;
+    margin: 0 18px;
     font-weight: bold;
 }
 
@@ -35,45 +31,81 @@ header h1 {
 .sobre {
     display: flex;
     justify-content: center;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
-.card-sobre {
+.contenedor-columnas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.columna {
     background: white;
     padding: 30px;
     border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
     text-align: center;
-    max-width: 500px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.columna:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
 }
 
 .foto-sobre {
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     object-fit: cover;
     border-radius: 50%;
     margin: 20px 0;
-    border: 3px solid #2563eb;
+    border: 4px solid #2563eb;
 }
 
 .texto {
-    color: #555;
-    line-height: 1.6;
+    color: #444;
+    line-height: 1.7;
     margin-bottom: 20px;
+    font-size: 15.5px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
+.bandera {
+    width: 32px;
+    height: 22px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
 }
 
-th {
-    background-color: #2563eb;
-    color: white;
+.idioma {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    font-weight: bold;
+    color: #333;
+    justify-content: center;
 }
 
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
+.lista-conocimientos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-conocimientos li {
+    background: #e2e8f0;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #1e293b;
+    transition: background 0.2s ease;
+}
+
+.lista-conocimientos li:hover {
+    background: #cbd5e1;
 }
