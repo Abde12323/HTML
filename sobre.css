@@ -4,7 +4,6 @@ body {
     background-color: #f8fafc;
 }
 
-/* HEADER */
 header {
     background-color: #0f172a;
     color: white;
@@ -16,7 +15,6 @@ header h1 {
     margin: 0;
 }
 
-/* MENU */
 .menu {
     background-color: #1e293b;
     text-align: center;
@@ -34,14 +32,12 @@ header h1 {
     color: #38bdf8;
 }
 
-/* SECCION */
 .sobre {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
 }
 
-/* TARJETA */
 .card-sobre {
     background: white;
     padding: 30px;
@@ -51,7 +47,6 @@ header h1 {
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-/* FOTO */
 .foto-sobre {
     width: 180px;
     height: 180px;
@@ -61,14 +56,12 @@ header h1 {
     border: 3px solid #2563eb;
 }
 
-/* TEXTO */
 .texto {
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
 }
 
-/* TABLA */
 table {
     width: 100%;
     border-collapse: collapse;
